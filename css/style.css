@@ -1,5 +1,5 @@
 
-@media (min-width:1201px) {
+@media (min-width:1185px) {
 
     *{
         margin: 0;
@@ -7,7 +7,7 @@
     }
 
     .background img{
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         position: absolute;
         display: flex;
@@ -28,7 +28,7 @@
 
     .bar-container a img{
         width: 250px;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         margin-left: 5rem;
     }
 
@@ -43,14 +43,93 @@
     }
 
     .nav-unit{
+        position: relative;
         display: inline;
         text-align: left;
+        letter-spacing: 0.5px;
         margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        left: 0%;
+        bottom: -10px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
     }
 
     .nav-unit a{
         text-decoration: none;
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
     }
+
+    .container-logo{
+        float: left;
+        position: absolute;
+        left: 50px;
+        bottom: 120px;
+    }
+
+    .container-logo div h1{
+        font-family: 'Prompt', sans-serif;
+        font-weight: 1;
+        display: inline;
+        color: white;
+        margin-right: 0.3rem;
+        font-size: 60px;
+
+    }
+    .container-logo div h1.h1-head{
+        color: #ff5959;
+    }
+
+    .container-p-logo{
+        margin-top: 1.5rem;
+        max-width: 710px;
+    }
+
+    .container-logo p{
+        color: white;
+        font-family: "Prompt",sans-serif;
+        font-size: 22px;
+        display: inline;
+        font-weight: lighter;
+    }
+
+    .container-logo .p-head{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .face-tik-logo img{
+        max-width: 60px;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .side-image{
+        position: fixed;
+        right: 100px;
+    }
+
+    .side-image img{
+        width: 450px;
+    }
+
 }

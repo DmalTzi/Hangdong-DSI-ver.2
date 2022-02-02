@@ -26,6 +26,8 @@
     text-align: left;
     padding: 20px;
     box-sizing: border-box;
+    border: solid #fff 1px;
+    border-radius: 5px;
 }
 
 .popup h1{
@@ -65,7 +67,7 @@
     transform: translate(-50%,-50%) scale(1);
 }
 
-.learn-more{
+/* .learn-more{
     margin-top: 1rem;
     border: 1px solid #fff;
     padding: 0.4rem 0.7rem;
@@ -75,4 +77,4 @@
     background-color: rgba(0,0,0,0.5);
     cursor: pointer;
     font-size: 15px;
-}
+} */
