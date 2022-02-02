@@ -39,7 +39,7 @@
     .nav-menu{
         float: right;
         margin-right: 2rem;
-        margin-top: 2.5%;
+        margin-top: 5%;
     }
 
     .nav-unit{
@@ -75,68 +75,24 @@
 
     .nav-unit a{
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-size: 26px;
         font-family: 'Prompt', sans-serif;
         font-weight: bolder;
     }
+    /* member */
+    .member h1{
+        text-align: center;
+        margin-top: 10px;
+    }
 
-    .container-logo{
+    .member nav{
         float: left;
-        position: absolute;
-        left: 50px;
-        bottom: 90px;
+        padding: 30px;
+        margin: 10px;
     }
 
-    .container-logo div h1{
-        font-family: 'Prompt', sans-serif;
-        font-weight: 1;
-        display: inline;
-        color: white;
-        margin-right: 0.3rem;
-        font-size: 60px;
-
-    }
-    .container-logo div h1.h1-head{
-        color: #ff5959;
-    }
-
-    .container-p-logo{
-        margin-top: 1.5rem;
-        max-width: 710px;
-    }
-
-    .container-logo p{
-        color: white;
-        font-family: "Prompt",sans-serif;
-        font-size: 22px;
-        display: inline;
-        font-weight: lighter;
-    }
-
-    .container-logo .p-head{
-        font-size: 26px;
-        font-weight: bold;
-    }
-    .face-tik-logo img{
-        max-width: 60px;
-        margin-top: 1rem;
-        margin-right: 1rem;
-    }
-
-    .side-image{
-        position: fixed;
-        right: 100px;
-    }
-
-    .side-image img{
-        width: 450px;
-    }
-
-    .policy-bar{
-        position: flex;
-        font-size: 30px;
-        
-    }
+    .member nav img{
+        width: 250px;
 
 }
