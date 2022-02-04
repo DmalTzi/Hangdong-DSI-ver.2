@@ -1,0 +1,797 @@
+
+@media (min-width:1186px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .link{
+        position: absolute;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        z-index: -1000;
+    }
+    
+    .nav-unit{
+        position: relative;
+        display: inline;
+        text-align: left;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        left: 0%;
+        bottom: -10px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+
+    /* member */
+
+    /* container main member */
+    .container-member-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image-member img{
+        width: 300px;
+        border-radius: 5%;
+    }
+
+    /* container main sub member */
+    .container-member-main-sub-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .container-member-main-sub-img figure img{
+        width: 280px;
+        border-radius: 5%;
+    }
+
+    /* container member-sub */
+    .container-member-img-sub{
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        /* grid-gap: 1rem; */
+        margin-top: 3rem;
+    }
+
+    .image-member-sub figure img{
+        width: 220px;
+        border-radius: 5%;
+    }
+
+    .face-tik-ig img{
+        width: 45px !important;
+    }
+
+    /* font */
+    .member{
+        text-align: center;
+        background-color: #e6e6e6;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin-top: 1rem;
+        font-family: "Prompt", sans-serif;
+    }
+
+    .image-member h3{
+        font-size: 24px;
+    }
+
+    .image-member figcaption{
+        font-size: 20px;
+    }
+
+    .border-img{
+        border-radius: 5%;
+        width: 230px;
+    }
+
+
+    .image-member-sub figcaption a img{
+        margin-bottom: 1rem;
+    }
+
+
+        
+    footer{
+        background-color: rgb(51, 51, 51);
+        height: 70px;
+        width: 100%;
+        padding-top: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+/* small desktop */
+@media (min-width:900px) and (max-width:1185px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .dropdown{
+        position: relative;
+    }
+
+    .link{
+        margin-top: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0);
+        padding: 0.4rem 0.7rem;
+        display: inline-block;
+        border-radius: 10%;
+        /* text-decoration: none; */
+        color: #fff;
+        background-color: rgba(0,0,0,0.5);
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        position: absolute;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        top: calc(100% + .5rem);
+        background-color: rgba(0, 0, 0, 0.637);
+        padding: 1rem;
+        width: 230px;
+        height: 130px;
+        border-radius: .25rem;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+        opacity: 0;
+        /* pointer-events: auto; */
+        transform: translateY(-10px);
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+        z-index: 10;
+    }
+
+    .dropdown > .link:focus + .dropdown-menu{
+        opacity: 1;
+        transform: translateY(0px);
+        /* pointer-events: none; */
+    }
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .nav-unit{
+        position: relative;
+        display: block;
+        text-align: right;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        right: 0%;
+        bottom: -0px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+    /* member */
+
+    /* container main member */
+    .container-member-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image-member img{
+        width: 250px;
+        border-radius: 5%;
+    }
+
+    /* container main sub member */
+    .container-member-main-sub-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .container-member-main-sub-img figure img{
+        width: 230px;
+        border-radius: 5%;
+    }
+
+    /* container member-sub */
+    .container-member-img-sub{
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        /* grid-gap: 1rem; */
+        margin-top: 3rem;
+    }
+
+    .image-member-sub figure img{
+        width: 190px;
+        border-radius: 5%;
+    }
+
+    .face-tik-ig img{
+        width: 38px !important;
+    }
+
+    /* font */
+    .member{
+        text-align: center;
+        background-color: #e6e6e6;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin-top: 1rem;
+        font-family: "Prompt", sans-serif;
+    }
+
+    .image-member h3{
+        font-size: 24px;
+    }
+
+    .image-member figcaption{
+        font-size: 20px;
+    }
+
+    .border-img{
+        border-radius: 5%;
+        width: 230px;
+    }
+
+
+    .image-member-sub figcaption a img{
+        margin-bottom: 1rem;
+    }
+
+
+        
+    footer{
+        background-color: rgb(51, 51, 51);
+        height: 70px;
+        width: 100%;
+        padding-top: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* tablet */
+@media (min-width:700px) and (max-width:899px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .dropdown{
+        position: relative;
+    }
+
+    .link{
+        margin-top: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0);
+        padding: 0.4rem 0.7rem;
+        display: inline-block;
+        border-radius: 10%;
+        /* text-decoration: none; */
+        color: #fff;
+        background-color: rgba(0,0,0,0.5);
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        position: absolute;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        top: calc(100% + .5rem);
+        background-color: rgba(0, 0, 0, 0.637);
+        padding: 1rem;
+        width: 230px;
+        height: 130px;
+        border-radius: .25rem;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+        opacity: 0;
+        /* pointer-events: auto; */
+        transform: translateY(-10px);
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+        z-index: 10;
+    }
+
+    .dropdown > .link:focus + .dropdown-menu{
+        opacity: 1;
+        transform: translateY(0px);
+        /* pointer-events: none; */
+    }
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .nav-unit{
+        position: relative;
+        display: block;
+        text-align: right;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        right: 0%;
+        bottom: -0px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+    /* member */
+
+    /* container main member */
+    .container-member-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image-member img{
+        width: 220px;
+        border-radius: 5%;
+    }
+
+    /* container main sub member */
+    .container-member-main-sub-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .container-member-main-sub-img figure img{
+        width: 190px;
+        border-radius: 5%;
+    }
+
+    /* container member-sub */
+    .container-member-img-sub{
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        /* grid-gap: 1rem; */
+        margin-top: 3rem;
+    }
+
+    .image-member-sub figure img{
+        width: 140px;
+        border-radius: 5%;
+    }
+
+    .face-tik-ig img{
+        width: 30px !important;
+    }
+
+    /* font */
+    .member{
+        text-align: center;
+        background-color: #e6e6e6;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin-top: 1rem;
+        font-family: "Prompt", sans-serif;
+    }
+
+    .image-member h3{
+        font-size: 24px;
+    }
+
+    .image-member figcaption{
+        font-size: 20px;
+    }
+
+    .border-img{
+        border-radius: 5%;
+        width: 230px;
+    }
+
+
+    .image-member-sub figcaption a img{
+        margin-bottom: 1rem;
+    }
+        
+    footer{
+        background-color: rgb(51, 51, 51);
+        height: 70px;
+        width: 100%;
+        padding-top: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:699px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .dropdown{
+        position: relative;
+    }
+
+    .link{
+        margin-top: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0);
+        padding: 0.4rem 0.7rem;
+        display: inline-block;
+        border-radius: 10%;
+        /* text-decoration: none; */
+        color: #fff;
+        background-color: rgba(0,0,0,0.5);
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        position: absolute;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        top: calc(100% + .5rem);
+        background-color: rgba(0, 0, 0, 0.637);
+        padding: 1rem;
+        width: 230px;
+        /* height: 100px; */
+        border-radius: .25rem;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+        opacity: 0;
+        /* pointer-events: auto; */
+        transform: translateY(-10px);
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+        z-index: 10;
+    }
+
+    .dropdown > .link:focus + .dropdown-menu{
+        opacity: 1;
+        transform: translateY(0px);
+        /* pointer-events: none; */
+    }
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .nav-unit{
+        position: relative;
+        display: block;
+        text-align: right;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        right: 0%;
+        bottom: -0px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+    /* member */
+
+    /* container main member */
+    .container-member-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image-member img{
+        width: 190px;
+        border-radius: 5%;
+    }
+
+    /* container main sub member */
+    .container-member-main-sub-img{
+        align-content: center;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .container-member-main-sub-img figure img{
+        width: 150px;
+        border-radius: 5%;
+    }
+
+    /* container member-sub */
+    .container-member-img-sub{
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-gap: 1rem; */
+        margin-top: 3rem;
+    }
+
+    .image-member-sub figure img{
+        width: 120px;
+        border-radius: 5%;
+    }
+
+    .face-tik-ig img{
+        width: 30px !important;
+    }
+
+    /* font */
+    .member{
+        text-align: center;
+        background-color: #e6e6e6;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin-top: 1rem;
+        font-family: "Prompt", sans-serif;
+    }
+
+    .image-member h3{
+        font-size: 24px;
+    }
+
+    .image-member figcaption{
+        font-size: 20px;
+    }
+
+    .border-img{
+        border-radius: 5%;
+        width: 230px;
+    }
+
+
+    .image-member-sub figcaption a img{
+        margin-bottom: 1rem;
+    }
+        
+    footer{
+        background-color: rgb(51, 51, 51);
+        height: 70px;
+        width: 100%;
+        padding-top: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+}

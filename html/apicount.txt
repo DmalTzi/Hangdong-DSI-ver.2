@@ -1,0 +1,5 @@
+https://api.countapi.xyz/create?namespace=dmaltzicode&key=test&value=0
+
+https://api.countapi.xyz/get/dmaltzicode/test
+
+https://api.countapi.xyz/update/dmaltzicode/test?amount=5

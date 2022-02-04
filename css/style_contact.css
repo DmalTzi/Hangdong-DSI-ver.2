@@ -1,21 +1,8 @@
-
-@media (min-width:1185px) {
+@media (min-width:1650px) {
 
     *{
         margin: 0;
         padding: 0;
-    }
-
-    .background img{
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        display: flex;
-        background-size: cover;
-        background-position: center;
-        z-index: -100;
-        justify-content: center;
-        /* background: url(/image/Background/Hangdong_web.png); */
     }
 
     .bar-container{
@@ -30,6 +17,11 @@
         width: 250px;
         margin-top: 1rem;
         margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
     }
 
     .bar-container{
@@ -39,7 +31,7 @@
     .nav-menu{
         float: right;
         margin-right: 2rem;
-        margin-top: 5%;
+        margin-top: 2.5%;
     }
 
     .nav-unit{
@@ -80,19 +72,24 @@
         font-family: 'Prompt', sans-serif;
         font-weight: bolder;
     }
-    /* member */
-    .member h1{
+
+    .container-contact{
+        background-color: #99a2df;
+        width: 100%;
+        height: 87vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .box-contact{
+        background-color: #f4f4ff;
+        width: 1000px;
+        height: 500px;
         text-align: center;
-        margin-top: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
     }
-
-    .member nav{
-        float: left;
-        padding: 30px;
-        margin: 10px;
-    }
-
-    .member nav img{
-        width: 250px;
 
 }
