@@ -130,6 +130,10 @@
         width: 45px !important;
     }
 
+    .face-tik-ig img:hover{
+        transform: scale(1.12);
+    }
+
     /* font */
     .member{
         text-align: center;
@@ -342,6 +346,10 @@
         width: 38px !important;
     }
 
+    .face-tik-ig img:hover{
+        transform: scale(1.12);
+    }
+
     /* font */
     .member{
         text-align: center;
@@ -551,6 +559,10 @@
         width: 30px !important;
     }
 
+    .face-tik-ig img:hover{
+        transform: scale(1.12);
+    }
+
     /* font */
     .member{
         text-align: center;
@@ -756,6 +768,10 @@
 
     .face-tik-ig img{
         width: 30px !important;
+    }
+
+    .face-tik-ig img:hover{
+        transform: scale(1.12);
     }
 
     /* font */
