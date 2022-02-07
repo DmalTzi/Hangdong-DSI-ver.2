@@ -165,14 +165,19 @@
     }
     
     .view-con{
-        margin-top: 1rem;
         display: flex;
-        text-align: right;
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(0,0,0,0.4);
+        padding: 0.2rem;
     }
     
     .view{
         display: flex;
         list-style: none;
+        color: black;
+        font-family: "Prompt",sans-serif;
+        font-size: 16px;
     }
     
     .view li{
@@ -387,6 +392,10 @@
         
     }
 
+    .view-con{
+        position: absolute;
+        z-index: -1000;
+    }
 }
 
 
@@ -592,6 +601,11 @@
         position: flex;
         font-size: 30px;
         
+    }
+
+    .view-con{
+        position: absolute;
+        z-index: -1000;
     }
 }
 
@@ -805,6 +819,11 @@
         font-size: 30px;
         
     }
+
+    .view-con{
+        position: absolute;
+        z-index: -1000;
+    }
 }
 
 
@@ -1013,5 +1032,10 @@
         position: flex;
         font-size: 30px;
         
+    }
+
+    .view-con{
+        position: absolute;
+        z-index: -1000;
     }
 }

@@ -18,14 +18,14 @@
 //     })
 // })
 
-const countEL = document.getElementById('count');
+const countElement = document.getElementById('count');
 
-updateVisiCount();
+update();
 
-function updateVisiCount(){
+function update() {
     fetch('https://api.countapi.xyz/update/hangdongdsi/dsi?amount=1')
         .then(res => res.json())
         .then(res => {
-            countEL.innerHTML = res.value;
-        });
+            countElement.innerHTML = res.value;
+        })
 }
