@@ -18,18 +18,14 @@
 //     })
 // })
 
-const countElement = document.getElementById('count');
+const countEL = document.getElementById('count');
 
-update();
+updateVisiCount();
 
-function update(){
-    fetch('https://api.countapi.xyz/update/dmaltzicode/test?amount=1')
+function updateVisiCount(){
+    fetch('https://api.countapi.xyz/update/hangdongdsi/dsi?amount=1')
         .then(res => res.json())
         .then(res => {
-            countElement.innerHTML = res.value;
-        })
-}
-
-function websiteVisits(response){
-    document.querySelector("#visits").textContent = response.value;
+            countEL.innerHTML = res.value;
+        });
 }
