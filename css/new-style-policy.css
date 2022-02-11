@@ -1,0 +1,464 @@
+@media only screen and (min-width:1500px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* topbar */
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .link{
+        position: absolute;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .nav-unit{
+        position: relative;
+        display: inline;
+        text-align: left;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        left: 0%;
+        bottom: -10px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+
+
+    /* policy text box */
+    .policy-text-box{
+        background-color: #f4f4f4;
+        margin: 2rem;   
+        padding: 2rem;
+        width: 45%;
+        font-family: "Prompt",sans-serif;
+    }
+
+    .policy-text-box h1{
+        color: #ff5959;
+    }
+
+    .p-head{
+        color: #676fa3;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+
+    .p-sub{
+        padding-left: 1rem;
+        font-size: 18px;
+    }
+
+    .slider img{
+        position: absolute;
+        left: 60%;
+        top: 25%;
+        width: 30% ;
+    }
+
+    .slide2r{
+        z-index: -100;
+        width: 0;
+        height: 0;
+    }
+
+    .slider2 img{
+        width: 0;
+        height: 0;
+    }
+
+    body{
+        height: auto;
+    }
+}
+
+
+
+
+
+
+/* 1499 */
+@media (min-width:1001px) and (max-width:1499px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* topbar */
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .link{
+        position: absolute;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .nav-unit{
+        position: relative;
+        display: inline;
+        text-align: left;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        left: 0%;
+        bottom: -10px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+
+
+    /* policy text box */
+    .policy-text-box{
+        background-color: #f4f4f4;
+        margin: 2rem;   
+        padding: 2rem;
+        width: 45%;
+        font-family: "Prompt",sans-serif;
+    }
+
+    .policy-text-box h1{
+        color: #ff5959;
+    }
+
+    .p-head{
+        color: #676fa3;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+
+    .p-sub{
+        padding-left: 1rem;
+        font-size: 18px;
+    }
+
+    .slider img{
+        position: absolute;
+        left: 65%;
+        top: 30%;
+        width: 30% ;
+    }
+
+    .slide2r{
+        z-index: -100;
+        width: 0;
+        height: 0;
+    }
+
+    .slider2 img{
+        width: 0;
+        height: 0;
+    }
+
+    body{
+        height: auto;
+    }
+}
+
+
+
+
+
+/* 1000px */
+@media only screen and (max-width:1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* topbar */
+
+    .bar-container{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .bar-container a img{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        transition: 0.3s;
+    }
+
+    .bar-container a img:hover{
+        transform: scale(1.15);
+    }
+
+    .bar-container{
+        padding-top: 0.5%;
+    }   
+
+    .dropdown{
+        position: relative;
+    }
+
+    .link{
+        margin-top: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0);
+        padding: 0.4rem 0.7rem;
+        display: inline-block;
+        border-radius: 10%;
+        /* text-decoration: none; */
+        color: #fff;
+        background-color: rgba(0,0,0,0.5);
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        position: absolute;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        top: calc(100% + .5rem);
+        background-color: rgba(0, 0, 0, 0.637);
+        padding: 1rem;
+        width: 230px;
+        height: 150px auto;
+        border-radius: .25rem;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+        opacity: 0;
+        z-index: 100;
+        /* pointer-events: none; */
+        transform: translateY(-10px);
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    }
+
+    .dropdown > .link:focus + .dropdown-menu{
+        opacity: 1;
+        transform: translateY(0px);
+        z-index: 100;
+        /* pointer-events: auto; */
+    }
+
+    .nav-menu{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2.5%;
+    }
+
+    .nav-unit{
+        position: relative;
+        display: block;
+        text-align: right;
+        letter-spacing: 0.5px;
+        margin-left: 2rem;
+        padding: 0 10px;
+    }
+
+    .nav-unit a:after{
+        content: "";
+        position: absolute;
+        background-color: #ff5959;
+        border-right: 0% solid #ff5959;
+        height: 2px;
+        width: 0%;
+        right: 0%;
+        bottom: -0px;
+        transition: 0.3s ease-out;
+    }
+
+    .nav-unit a:hover{
+        color: #ff5959;
+        transition: 0.3s;
+    }
+
+    .nav-unit a:hover:after{
+        width: 100%;
+        border-right: 100% solid #ff5959;
+    }
+
+    .nav-unit a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bolder;
+    }
+
+
+    /* policy text box */
+    .policy-text-box{
+        background-color: #f4f4f4;
+        margin: 2rem ;   
+        padding: 2rem;
+        width:  70% auto;
+        font-family: "Prompt",sans-serif;
+        box-sizing: border-box;
+    }
+
+    .policy-text-box h1{
+        color: #ff5959;
+    }
+
+    .p-head{
+        color: #676fa3;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+
+    .p-sub{
+        padding-left: 1rem;
+        font-size: 18px;
+    }
+
+    .slider{
+        z-index: -100;
+        width: 0;
+        height: 0;
+    }
+
+    .slider img{
+        z-index: -100;
+        width: 0;
+        height: 0;
+    }
+
+    .slider2 img{
+        display: inline;
+        position: relative;
+        left: 25%;
+        top: auto;
+        width: 50% ;
+    }
+
+    body{
+        height: auto;
+    }
+}
