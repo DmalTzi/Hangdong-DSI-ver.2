@@ -6,7 +6,7 @@
     }
 
     .background img{
-        overflow: hidden;
+        /* overflow: hidden; */
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -100,7 +100,7 @@
         float: left;
         position: absolute;
         left: 50px;
-        bottom: 90px;
+        bottom: 80px;
     }
 
     .container-logo div h1{
@@ -190,7 +190,10 @@
 
 
 
-@media (min-width:1186px) and (min-height:550px) and (max-height:800px) {
+
+
+
+@media (min-width:1186px) and (max-height:700px) {
 
     *{
         margin: 0;
@@ -198,7 +201,7 @@
     }
 
     .background img{
-        overflow: hidden;
+        /* overflow: hidden; */
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -405,7 +408,7 @@
     }
 
     .background{
-        overflow: hidden;
+        /* overflow: hidden; */
         min-width: 100% auto;
         max-width: 100%;
         min-height: 100% auto;
@@ -616,7 +619,7 @@
     }
 
     .background{
-        overflow: hidden;
+        /* overflow: hidden; */
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -828,7 +831,7 @@
     }
 
     .background{
-        overflow: hidden;
+        /* overflow: hidden; */
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -1043,7 +1046,7 @@
     }
 
     .background{
-        overflow: hidden;
+        /* overflow: hidden; */
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -1240,3 +1243,12 @@
         z-index: -1000;
     }
 }
+
+
+
+
+
+
+
+
+/* overflow: Hiden ลองเอาออก */
