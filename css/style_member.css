@@ -119,6 +119,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         /* grid-gap: 1rem; */
         margin-top: 3rem;
+        /* margin: 3rem; */
     }
 
     .image-member-sub figure img{
@@ -237,8 +238,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        height: 130px;
+        min-width: 250px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
@@ -450,8 +452,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        height: 130px;
+        min-width: 250px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
@@ -551,7 +554,7 @@
     }
 
     .image-member-sub figure img{
-        width: 140px;
+        width: 135px;
         border-radius: 5%;
     }
 
@@ -661,8 +664,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        /* height: 100px; */
+        min-width: 250px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
@@ -762,7 +766,7 @@
     }
 
     .image-member-sub figure img{
-        width: 120px;
+        width: 110px;
         border-radius: 5%;
     }
 
