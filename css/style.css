@@ -6,7 +6,7 @@
     }
 
     .background img{
-        /* overflow: hidden; */
+        overflow: hidden;
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -201,7 +201,7 @@
     }
 
     .background img{
-        /* overflow: hidden; */
+        overflow: hidden;
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -408,7 +408,7 @@
     }
 
     .background{
-        /* overflow: hidden; */
+        overflow: hidden;
         min-width: 100% auto;
         max-width: 100%;
         min-height: 100% auto;
@@ -471,8 +471,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        height: 130px;
+        min-width: 250px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
@@ -619,7 +620,7 @@
     }
 
     .background{
-        /* overflow: hidden; */
+        overflow: hidden;
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -681,8 +682,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        height: 130px;
+        min-width: 250px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
@@ -831,7 +833,7 @@
     }
 
     .background{
-        /* overflow: hidden; */
+        overflow: hidden;
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -897,8 +899,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        height: 150px;
+        min-width: 250px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
@@ -1046,7 +1049,7 @@
     }
 
     .background{
-        /* overflow: hidden; */
+        overflow: hidden;
         min-width: 100%;
         max-width: 100%;
         height: 100vh;
@@ -1111,8 +1114,9 @@
         top: calc(100% + .5rem);
         background-color: rgba(0, 0, 0, 0.637);
         padding: 1rem;
-        width: 230px;
-        height: 130px;
+        min-width: 230px;
+        max-width: auto;
+        height: auto;
         border-radius: .25rem;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         opacity: 0;
