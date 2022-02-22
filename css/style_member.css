@@ -145,12 +145,12 @@
         font-family: "Prompt", sans-serif;
     }
 
-    .image-member h3{
-        font-size: 24px;
+    h3{
+        font-size: 25px;
     }
 
-    .image-member figcaption{
-        font-size: 20px;
+    p{
+        font-size: 24px;
     }
 
     .border-img{
@@ -162,7 +162,6 @@
     .image-member-sub figcaption a img{
         margin-bottom: 1rem;
     }
-
 
         
     footer{
@@ -340,7 +339,7 @@
     }
 
     .image-member-sub figure img{
-        width: 190px;
+        width: 180px;
         border-radius: 5%;
     }
 
@@ -362,17 +361,16 @@
         font-family: "Prompt", sans-serif;
     }
 
-    .image-member h3{
-        font-size: 24px;
+    h3{
+        font-size: 20px;
     }
 
-    .image-member figcaption{
-        font-size: 20px;
+    p{
+        font-size: 18px;
     }
 
     .border-img{
         border-radius: 5%;
-        width: 230px;
     }
 
 
@@ -576,12 +574,12 @@
         font-family: "Prompt", sans-serif;
     }
 
-    .image-member h3{
-        font-size: 24px;
+    h3{
+        font-size: 18px;
     }
 
-    .image-member figcaption{
-        font-size: 20px;
+    p{
+        font-size: 16px;
     }
 
     .border-img{
@@ -788,12 +786,12 @@
         font-family: "Prompt", sans-serif;
     }
 
-    .image-member h3{
-        font-size: 24px;
+    h3{
+        font-size: 16px;
     }
 
-    .image-member figcaption{
-        font-size: 20px;
+    p{
+        font-size: 14px;
     }
 
     .border-img{

@@ -102,6 +102,7 @@
     
     .box div {
         /* display: flex; */
+        overflow: hidden;
         background-color: #f4f4f4;
         border-radius: 10px;
         padding: 5%;
